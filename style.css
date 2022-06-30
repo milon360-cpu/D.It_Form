@@ -29,6 +29,12 @@ input::-webkit-inner-spin-button {
     box-shadow: 2px 2px 20px rgba(128, 128, 128, 0.325);
     border: 1px solid rgba(128, 128, 128, 0.24);
 }
+.form-container hr 
+{
+    margin: 10px 0px;
+   border: none;
+   border-bottom: 1px solid rgba(128, 128, 128, 0.357);
+}
 .form-container h1 
 {
     color: #093456;
@@ -92,6 +98,7 @@ input::-webkit-inner-spin-button {
     color: white;
     border-radius: 5px;
     font-weight: bold;
+    outline: none;
 }
 #submit 
 {
@@ -132,6 +139,10 @@ input::-webkit-inner-spin-button {
     .form-container 
     {
         max-width: 100%;
+    }
+    .new-form-group input 
+    {
+        margin: 0px;
     }
 
 }

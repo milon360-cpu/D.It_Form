@@ -4,9 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    
+   <div class="containr">
+    <div class="form-container">
+        <form action="">
+            <h1>Sign Up</h1>
+            <div class="form-group">
+                <label for="user-name"> Name </label><br>
+                <input type="text" name="name" id="user-name" placeholder="user name" maxlength="20" required>
+            </div>
+            <div class="form-group">
+                <label for="email"> Email </label><br>
+                <input type="email" name="email" id="email" placeholder="@gmail.com" required>
+            </div>
+            <div class="form-group">
+                <label for="password"> Password </label><br>
+                <input type="password" name="password" id="password" placeholder="password" minlength="8" maxlength="14" required>
+            </div>
+            <div class="form-group">
+                <label for="phone"> Phone </label><br>
+                <input type="number" name="phone" id="phone" placeholder="01xxxxxxx" required >
+            </div>         
+           <div class="new-form-group">
+            <h3>Gender</h3>
+            <label for="">Male</label>
+            <input type="radio" name="gender" id="" checked >
+            <label for="">Female</label>
+            <input type="radio" name="gender" id="">
+            <label for="">Other</label>
+            <input type="radio" name="gender" id="">
+           </div>
+           <div class="new-form-group">
+            <h3>MERN</h3>
+            <label for="">Mongo BD</label>
+            <input type="checkbox" name="mongoBd" id="" checked >
+            <label for="">Express</label>
+            <input type="checkbox" name="express" id="">
+            <label for="">React</label>
+            <input type="checkbox" name="express" id="">
+            <label for="">Node js</label>
+            <input type="checkbox" name="node-js" id="">
+           </div>
+           <div class="button-group">
+              <button type="submit" id="submit" class="btn">submit</button>
+              <button type="reset" id="reset" class="btn">reset</button>
+           </div>
+           
+          </form>
+    </div>
+   </div>
 </body>
 </html>
